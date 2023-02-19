@@ -54,6 +54,8 @@ body {
   color: var(--hover-focus-color);
 }
 .button-section {
+  width: 516px;
+  height: 38px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -61,7 +63,11 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
   background-color: var(--white-color);
-  margin-right: 215px;
+  display: flex;
+  padding-left: 542px;
+  padding-right: 542px;
+  padding-bottom: 50px;
+  align-items: center;
 }
 .button-list {
   display: flex;
@@ -156,6 +162,8 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-grow: 1;
+  margin: 0 0 auto;
 }
 
 .logo {
@@ -166,18 +174,19 @@ section {
   display: flex;
   flex-grow: 1;
   align-items: center;
-  margin-left: 215px;
+  padding-left: 215px;
 }
 .header-list {
   display: flex;
   gap: 50px;
+  flex-grow: 1;
 }
 .contacts-list {
   display: flex;
   gap: 40px;
-  justify-content: flex-end;
-  margin-top: 32px;
+  padding-top: 32px;
   flex-grow: 1;
+  flex-wrap: nowrap;
 }
 .section-main-title {
   width: 1600px;
@@ -222,13 +231,15 @@ section {
 }
 .avantages-section {
   background: var(--white-color);
+  max-width: 1170px;
+  height: 101px;
+  padding-right: 215px;
+  padding-left: 215px;
 }
 .avantages {
   display: flex;
   list-style: none;
-  padding-right: 215px;
-  padding-left: 215px;
-  width: 1170px;
+  text-align: center;
 }
 .title-avantages {
   font-weight: 700;
@@ -274,8 +285,8 @@ section {
 }
 .section-team {
   background-color: #f5f4fa;
-  padding-left: 215px;
-  padding-right: 215px;
+  max-width: 1600px;
+  height: 648px;
 }
 .title-team {
   font-weight: 700;
@@ -287,10 +298,13 @@ section {
   margin-bottom: 50px;
 }
 .team {
+  width: 1170px;
   display: flex;
   gap: 30px;
   list-style: none;
   justify-content: center;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 .members {
   background: var(--white-color);
@@ -324,10 +338,10 @@ section {
 }
 
 .images-section-portfolio {
+  width: 1170px;
   background-color: var(--white-color);
-  display: flex;
   padding-left: 215px;
-  margin-right: 215px;
+  padding-right: 215px;
 }
 .images-list {
   display: flex;
