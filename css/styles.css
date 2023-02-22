@@ -260,10 +260,8 @@ section {
   color: #757575;
   gap: 30px;
 }
-.main-section-portofolio {
+main {
   background-color: var(--white-color);
-  padding-left: 215px;
-  padding-right: 215px;
 }
 .button-section {
   font-weight: 500;
@@ -271,7 +269,6 @@ section {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
-  background-color: var(--white-color);
   display: flex;
   padding-bottom: 50px;
   align-items: center;
@@ -303,7 +300,6 @@ section {
   list-style: none;
 }
 .images-section-portfolio {
-  background-color: var(--white-color);
   padding-top: 0px;
   display: flex;
 }
